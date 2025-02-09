@@ -1,0 +1,160 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "DM Serif Text", serif;
+}
+.Header{
+    display: flex;
+    /* justify-content: center; */
+}
+
+#logo{
+    height: 100px;
+    position: relative;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    /* justify-content: space-around; */
+}
+ul li{
+    color: white;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.main_nav{
+    margin-left: 400px;
+    margin-top: 65px;
+    font-size: 18px;
+}
+/* .right-most{
+    margin-left: 1000px;
+} */
+ video{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* width: 100%;
+    height: 100%; */
+    /* object-fit: cover; */
+    z-index: -1;
+ }
+ /* Default list item color */
+.main_nav ul li {
+    color: white; /* Default color */
+    transition: color 0.3s ease-in-out; /* Smooth transition effect */
+}
+
+/* Change color to black when hovering over the Header */
+.Header:hover .main_nav ul li {
+    color: black;
+}
+
+ .content{
+    display: flex;
+    /* position: fixed; */
+    justify-content:space-between;
+    /* float: right; */
+    margin-right: 55px;
+    margin-top: 300px;
+    color: white;
+    padding: 27px;
+ }
+ .para1{
+    line-height: 25px;
+    font-family: "Rasa", serif;
+ }
+ #more{
+    border: 1px  solid white;
+    border-radius: 5px;
+    padding: 10px;
+    
+ }
+ .content-list li a{
+    color: white;
+    text-decoration:overline;
+    margin: 5px;
+ }
+ .right-most{
+    margin-top: 65px;
+ }
+ #submit{
+    background: yellow;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    height: 25px;
+    width: 50px;
+    
+ }
+.form-div{
+    border: 1px solid white;
+    border-radius: 5px;
+    text-align: center;
+    background: #d0c3c35c;
+}
+.Whats-new{
+    text-align: center;
+    margin-top: 100px
+}
+.Whats-new h1{
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+}
+.Whats-new p{
+    color: rgb(83, 81, 81);
+}
+.tourofthekkady{
+    background-image: url('./images/thekkady.png');
+    background-size: cover; /* Cover the entire section */
+    /* height: 100%; */
+    background-position: center;
+    height: 702px;
+}
+.thekkady-content{
+    text-align: left;
+    height: 500px;
+}
+.thekkady-content h1 {
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    color: white;
+    margin-left: 52px;
+}
+.thekkady-content p{
+    color: rgba(255, 255, 255, 0.542);
+    margin-left: 52px;
+} 
+#explore{
+ height:35px ;
+ border: none;
+ border-radius: 5px;
+ width:60px;
+ background-color:#d0c3c32b;
+ color: white;
+ margin-left: 52px;
+}
+.destination-images{
+    display: flex;
+    justify-content: space-evenly;
+}
+.destination-images div img{
+    cursor: pointer;
+}
+.footer  ul{
+    display: flex;
+    justify-content: center;
+}
+.footer{
+    background-color: #000000bd;
+    color: white;
+    min-height: 150px;
+}
+.list{
+    display: flex;
+}
+.aboutUs ul li{
+    margin: 10px;
+}
