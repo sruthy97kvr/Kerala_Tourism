@@ -28,10 +28,7 @@ ul li{
     margin-top: 65px;
     font-size: 18px;
 }
-/* .right-most{
-    margin-left: 1000px;
-} */
- video{
+video{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -41,18 +38,17 @@ ul li{
     /* object-fit: cover; */
     z-index: -1;
  }
- /* Default list item color */
 .main_nav ul li {
-    color: white; /* Default color */
-    transition: color 0.3s ease-in-out; /* Smooth transition effect */
+    color: white;
+    transition: color 0.3s ease-in-out;
 }
-
-/* Change color to black when hovering over the Header */
 .Header:hover .main_nav ul li {
     color: black;
 }
-
- .content{
+.Header:hover {
+    background-color: white;
+}
+.content{
     display: flex;
     /* position: fixed; */
     justify-content:space-between;
@@ -67,6 +63,7 @@ ul li{
     font-family: "Rasa", serif;
  }
  #more{
+    cursor: pointer;
     border: 1px  solid white;
     border-radius: 5px;
     padding: 10px;
@@ -87,6 +84,7 @@ ul li{
     border: none;
     height: 25px;
     width: 50px;
+    cursor: pointer;
     
  }
 .form-div{
@@ -113,6 +111,21 @@ ul li{
     background-position: center;
     height: 702px;
 }
+.stay{
+    margin-top: 40px;
+    color: white;
+}
+.form-stay{
+    margin-top: 100px;
+}
+.form-div{
+    background-image: url('./images/img2.webp');
+    background-size: cover; /* Cover the entire section */
+    /* height: 100%; */
+    background-position: center;
+    height: 600px;
+}
+
 .thekkady-content{
     text-align: left;
     height: 500px;
@@ -157,4 +170,45 @@ ul li{
 }
 .aboutUs ul li{
     margin: 10px;
+}
+.right-most button{
+    margin-right: 558px;
+}
+.Header:hover{
+background-color: #ffffff42;
+}
+.destination{
+    margin-top: -51px;
+    text-align: center;
+    color: white;
+    transition: transform 0.3s ease-in-out;
+}
+.destination:hover {
+    transform: translateY(-10px);
+}
+.info-container{
+    display: flex;
+    justify-content:space-around;
+}
+.info-container div p{
+    color: rgb(83, 81, 81);
+}
+.nfo-container div  h1{
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+}
+#explore2{
+    height:30px ;
+ border: 1px solid  rgb(83, 81, 81);;
+ border-radius: 5px;
+ width:60px;
+ 
+ color: rgb(83, 81, 81);
+ margin-left: 52px;
+}
+button{
+    cursor: pointer;
+}
+h2{
+    cursor: pointer;
 }
